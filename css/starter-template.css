@@ -5,3 +5,10 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+html { 
+  background: url(images/blh_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
