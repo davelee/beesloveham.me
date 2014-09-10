@@ -20,6 +20,23 @@
      <!-- Custom styles for this template -->
     <link href="css/starter-template.css" rel="stylesheet">
 
+<script src="http://coinwidget.com/widget/coin.js"></script>
+<script>
+CoinWidgetCom.go({
+  wallet_address: "15vJbgTT5UDQwgG8vdngSkf6NSeTnuWV1q"
+  , currency: "bitcoin"
+  , counter: "count"
+  , alignment: "bl"
+  , qrcode: true
+  , auto_show: false
+  , lbl_button: "Donate"
+  , lbl_address: "My Bitcoin Address:"
+  , lbl_count: "donations"
+  , lbl_amount: "BTC"
+});
+</script>
+
+
   </head>
   <body>
      <div class="navbar navbar-inverse navbar-fixed-top " role="navigation">
@@ -49,7 +66,6 @@
           <video loop width="330" height="260" autoplay>
            <source src= "/videos/blh.mp4" type="video/mp4">
           </video>
-          <iframe id="coinbase_inline_iframe_ef0e42946835455331e499d2411f3200" src="https://coinbase.com/inline_payments/ef0e42946835455331e499d2411f3200" style="width: 500px; height: 160px; border: none; box-shadow: 0 1px 3px rgba(0,0,0,0.25); overflow: hidden;" scrolling="no" allowtransparency="true" frameborder="0"></iframe>
       </div>
     </div>
 
