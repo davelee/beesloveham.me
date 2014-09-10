@@ -17,6 +17,6 @@ body {
   background-size: cover;
 }
 
-.yeller a {
+.yeller a:hover {
 	color: #FFD700 !important;
 }
