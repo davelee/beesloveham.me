@@ -21,11 +21,14 @@ body {
 	color: #FFD700 !important;
 }
 
-.vid-box {
-  float: left !important;
-
-
 }
 .coinbase-button {
   color: orange !important;
+}
+
+
+.bg-vid {
+  float: right;
+  display: inline !important;
+  background: rgba(255,235,215,.5);
 }
