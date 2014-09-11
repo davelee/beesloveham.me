@@ -31,4 +31,5 @@ body {
   float: right;
   display: inline !important;
   background: rgba(255,235,215,.5);
+  margin: 20px;
 }
