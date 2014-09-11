@@ -20,3 +20,9 @@ body {
 .yeller a:hover {
 	color: #FFD700 !important;
 }
+
+.vid-box {
+  float: left !important;
+
+
+}
