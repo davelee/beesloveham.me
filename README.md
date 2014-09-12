@@ -1,1 +1,1 @@
-Bringing bees and ham together to grove love and harmony on earth.
+Bringing bees and ham together to grow love and harmony on earth.
