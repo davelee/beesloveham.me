@@ -34,3 +34,7 @@ body {
   background: rgba(255,235,215,.5);
   padding: 20px !important;
 }
+
+.bg-song {
+	display: hidden;
+}	
