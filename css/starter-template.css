@@ -32,7 +32,7 @@ body {
   display: block;
   background: rgba(255,235,215,.5);
   padding: 0 !important;
-	font-style: "Comic Sans MS", Arial, serif;
+	font-style: "Comic Sans MS", Arial, serif; !important
 }
 
 .bg-song {
