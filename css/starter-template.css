@@ -1,5 +1,5 @@
-.starter-template {
-  padding: 40px 15px;
+.starter-template { 
+	padding: 40px 15px;
   text-align: center;
 }
 
@@ -22,7 +22,6 @@ body {
 	color: #FFD700 !important;
 }
 
-}
 .coinbase-button {
   color: orange !important;
 }
@@ -30,8 +29,7 @@ body {
 
 .bg-vid {
   text-align: center;
-  float: right;
-  display: inline !important;
+  display: block;
   background: rgba(255,235,215,.5);
   padding: 20px !important;
 }
