@@ -51,4 +51,6 @@ body {
 
 html {
 	border: 0;!important
+	border-bottom-width: 0; !important
+}
 }
