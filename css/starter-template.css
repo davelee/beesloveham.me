@@ -53,3 +53,7 @@ body {
 	display: block;
 	width: 80%;
 }
+
+html {
+	border: 0;
+}
