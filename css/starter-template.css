@@ -39,7 +39,16 @@ body {
 	display: none;
 }	
 
-img {
+.ys {
 	display: block;
 	width: 100%;
+	align: center;
+	text-align: center;
+	background: rgba(255,235,215,.5);
+}
+
+.ys a {
+	text-align: center;
+	display: block;
+	width: 80%;
 }
