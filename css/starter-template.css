@@ -38,3 +38,8 @@ body {
 .bg-song {
 	display: none;
 }	
+
+img {
+	display: block;
+	width: 100%;
+}
