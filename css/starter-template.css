@@ -31,7 +31,8 @@ body {
   text-align: center;
   display: block;
   background: rgba(255,235,215,.5);
-  padding: 20px !important;
+  padding: 0 !important;
+	font-style: "Comic Sans";
 }
 
 .bg-song {
