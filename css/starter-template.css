@@ -10,8 +10,16 @@ h1 {
 	text-align: center;
 	display:block;
 	height: 100%;
-	background: rgba(242,237,182,.5);
+	background: rgba(242,237,182,.8);
+	vertical-align: middle;
 }
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+
 
 body {
 	margin-top: 50px;
