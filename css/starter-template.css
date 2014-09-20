@@ -137,6 +137,7 @@ body {
 a {
 	text-decoration: none;
 }
+
 .full {
   background: url(../images/blh_background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
