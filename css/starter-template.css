@@ -114,6 +114,7 @@ body {
 
 .navbar-nav>li {
 	float: left;
+	margin: 0;
 }
 
 .navbar-nav>li>a {
