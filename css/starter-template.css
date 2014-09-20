@@ -27,6 +27,14 @@ h1 {
 	background: rgba(125,104,66,.8);
 }
 
+#ys-slide1 {
+	background: rgba(242,237,182,.8);
+}
+
+#ys-slide2 {
+	background: rgba(232,205,116,.8);
+}
+
 .vertalign {
 	vertical-align: middle;
 	position: relative;
