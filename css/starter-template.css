@@ -65,8 +65,7 @@ body, html {
 body {
 	margin: 0;
 	background: none;
-	border: 0;!important
-	font-family: "Helvetica Neue",sans-serif;
+	font-family: "Helvetica Neue";
 	font-size: 14px;
 }
 .navbar-inverse {
