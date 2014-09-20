@@ -121,6 +121,11 @@ navbar-collapse {
 	box-shadow: none;
 }
 
+.container>.navbar-collapse, .container-fluid>.navbar-collapse {
+	margin-right: 0;
+	margin-left: 0;
+}
+
 .container {
 	width: 1170px;
 	padding-right: 15px;
