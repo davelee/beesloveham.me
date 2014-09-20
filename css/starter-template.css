@@ -99,6 +99,29 @@ body {
 	transform: translate3d(0,0,0);
 }
 
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+	max-height: 340px;
+}
+
+.navbar-collapse.collapse {
+	display: block!important;
+	height: auto!important;
+	padding-bottom: 0;
+	overflow: visible!important;
+}
+
+navbar-collapse {
+	width: auto;
+	border-top: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 .container {
 	width: 1170px;
 	padding-right: 15px;
