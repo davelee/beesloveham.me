@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+#haiku {
+	text-align: left
+}
+
+
 body {
 	margin-top: 50px;
 	margin-bottom: 50px;
