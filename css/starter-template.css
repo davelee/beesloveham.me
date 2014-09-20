@@ -17,6 +17,14 @@ h1 {
 	background: rgba(242,237,182,.8);
 }
 
+#slide2 {
+	background: rgba(232,205,116,.8);
+}
+
+#slide3 {
+	background: rgba(49,125,104,.8);
+}
+
 #haiku {
 	vertical-align: middle;
 	position: relative;
