@@ -152,13 +152,16 @@ navbar-collapse {
 .nav>li>a {
 	position: relative;
 	display: block;
-	padding: 10px 15px;
 }
 
 .nav {
 	padding-left: 0;
 	margin-bottom: 0;
 	list-style: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #777;
 }
 
 a {
