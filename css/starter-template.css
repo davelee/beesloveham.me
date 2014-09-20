@@ -81,6 +81,11 @@ body {
 	border-color: #080808;
 }
 
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	color: #fff;
+	background-color: #080808;
+}
+
 .navbar-fixed-top {
 	top: 0;
 	border-width: 0 0 1px;
@@ -123,7 +128,15 @@ body {
 	padding: 10px 15px;
 }
 
+.nav {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
 
+a {
+	text-decoration: none;
+}
 .full {
   background: url(../images/blh_background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
