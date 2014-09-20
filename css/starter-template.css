@@ -114,16 +114,11 @@ body {
 	overflow: visible!important;
 }
 
-navbar-collapse {
+.navbar-collapse {
 	width: auto;
 	border-top: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-}
-
-.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
-	padding-right: 0;
-	padding-left: 0;
 }
 
 .container {
@@ -146,7 +141,7 @@ navbar-collapse {
 .navbar-nav {
 	float: left;
 	margin: 0;
-}
+} 
 
 .navbar-nav>li>a {
 	padding-top: 15px;
