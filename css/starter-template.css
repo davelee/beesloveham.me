@@ -68,6 +68,14 @@ body {
 	font-family: "Helvetica Neue";
 	font-size: 14px;
 }
+
+.navbar {
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+
 .navbar-inverse {
 	background-color: #222;
 	border-color: #080808;
