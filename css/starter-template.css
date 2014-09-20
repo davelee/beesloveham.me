@@ -94,20 +94,35 @@ body {
 	transform: translate3d(0,0,0);
 }
 
+.container {
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav>li {
+	position: relative;
+	display: block;
+}
+
+.navbar-nav>li {
+	float: left;
+}
+
 .navbar-nav>li>a {
 	padding-top: 15px;
 	padding-bottom: 15px;
-}
-.navbar-nav>li>a {
-	padding-top: 10px;
-	padding-bottom: 10px;
 	line-height: 20px;
 }
+
 .nav>li>a {
 	position: relative;
 	display: block;
 	padding: 10px 15px;
 }
+
 
 .full {
   background: url(../images/blh_background.jpg) no-repeat center center fixed; 
