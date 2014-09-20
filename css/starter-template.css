@@ -48,10 +48,28 @@ body, html {
 }
 
 body {
-	margin-bottom: 50px;
+	margin: 0;
 	background: none;
 	border: 0;!important
-	font-family: "Comic Sans MS", Helvetica, Arial;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+.navbar-inverse {
+	background-color: #222;
+	border-color: #080808;
+}
+
+.navbar-fixed-top {
+	top: 0;
+	border-width: 0 0 1px;
+	border-radius: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	-webkit-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 }
 
 .full {
