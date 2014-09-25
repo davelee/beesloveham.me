@@ -53,6 +53,9 @@ h1, h2, h3, h4, h5, h6 {
 	background: rgba(232,205,116,.8);
 }
 
+#bees-slide1 {
+	background: rgba(232,205,116,.8);
+}
 .vertalign {
 	vertical-align: middle;
 	position: relative;
