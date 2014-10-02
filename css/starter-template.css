@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	line-height: 1.1;
 	color: inherit;
+	margin:0;
 }
 
 .slide-box {
@@ -54,8 +55,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #bees-slide1 {
+	background: rgba(242,237,182,.8);
+}
+
+.love1 {
+	background: rgba(242,237,182,.8);
+}
+
+.love2 {
 	background: rgba(232,205,116,.8);
 }
+
+
+.love3 {
+	background: rgba(125,104,66,.8);
+}
+
 .vertalign {
 	vertical-align: middle;
 	position: relative;
