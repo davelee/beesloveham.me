@@ -1,3 +1,28 @@
+html {
+	border: 0;!important
+	border-bottom-width: 0; !important
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	background: none;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+.full {
+  background: url(../images/blh_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #nav {
 	position: fixed;
 	background-color: black;
@@ -9,13 +34,13 @@
 
 #nav ul li a {
 	font-family: Helvetica;
-	color: white;
+	color: antiquewhite;
 	text-decoration: none;
 	padding: 10px;
 }
 
 #nav ul li a:hover {
-	color: gainsboro;
+	color: navajowhite;
 }
 
 #nav ul li {
@@ -53,10 +78,16 @@ h1, h2, h3, h4, h5, h6 {
 	vertical-align: middle;
 }
 
+.vertalign {
+	vertical-align: middle;
+	position: relative;
+	transform: translateY(-50%);
+	top:  50%;
+}
+
 #slide1 {
 	/*background: rgba(242,237,182,.6);*/
 	background: rgba(214,214,214,.6);
-
 }
 
 #slide2 {
@@ -69,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #slide4 {
-	background-image: url('../images/b2.jpg');
+	background-image: url('../images/b3.jpg');
 	background-size: 30%;
 }
 
@@ -79,10 +110,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #ys-slide2 {
 	background: rgba(232,205,116,.8);
-}
-
-#ys-slide2 img {
-	max-height: inherit;
 }
 
 #bees-slide1 {
@@ -102,43 +129,8 @@ h1, h2, h3, h4, h5, h6 {
 	background: rgba(125,104,66,.8);
 }
 
-.vertalign {
-	vertical-align: middle;
-	position: relative;
-	transform: translateY(-50%);
-	top:  50%;
-}
-
-body, html {
-	height: 100%;
-	width: 100%;
-}
-
-body {
-	margin: 0;
-	background: none;
-	font-family: Helvetica;
-	font-size: 14px;
-}
-
-.full {
-  background: url(../images/blh_background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.yeller a {
-	font-family: Helvetica, Arial;
-}
-
-.yeller a:hover {
-	color: #FFD700 !important;
-}
-
 .coinbase-button {
-  color: orange !important;
+  color: orange;
 }
 
 
@@ -155,11 +147,15 @@ body {
 	padding: 10px;
 }
 
-html {
-	border: 0;!important
-	border-bottom-width: 0; !important
-}
-
 #the_video {
 	size: 50%;
+}
+
+.slide-box .vertalign img {
+	max-width: 40%;
+}
+
+p {
+	font-family: Helvetica;
+	color: antiquewhite
 }
