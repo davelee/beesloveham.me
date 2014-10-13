@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #the_video {
-	size: 50%;
+	height: auto;
 	max-width: 100%;
 }
 
