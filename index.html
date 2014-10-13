@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Bees, love, ham.</title>
+    <link href="css/swag.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -14,19 +15,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-     <!-- Custom styles for this template -->
-    <link href="css/swag.css" rel="stylesheet">
 
   </head>
   <body>
     <div id="nav">
     <ul>
-      <li>
-        <a href="http://beesloveham.me">home</a>
-      </li>
+      <li><a href="http://beesloveham.me">home</a></li>
+      <li><a href="your_story.html">your story</a></li>
     </ul>
     </div>
-    <div class="slide-box" id="slide1" onclick="goToByScroll('slide2')">
+    <div class="slide-box" id="slide1">
 			<div class="vertalign">
 				<h1>A bee in my ham<br>I reached for my camera<br>A website was born.<br></h1>
 				<h5>[Contributed by Jeffrey Schaub]</h5>	
@@ -35,7 +33,7 @@
     
 		<div class="slide-box" id="slide2">
 			<div class="vertalign">
-				<video loop autoplay muted height="400px">
+				<video loop autoplay muted id="the_video">
     			<source src= "videos/blh.mp4" type="video/mp4">
      		</video>
 			</div>

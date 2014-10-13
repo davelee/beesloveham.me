@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #slide1 {
 	/*background: rgba(242,237,182,.6);*/
-	background: rgba(214,214,214,.5);
+	background: rgba(214,214,214,.6);
 
 }
 
@@ -68,12 +68,21 @@ h1, h2, h3, h4, h5, h6 {
 	background: rgba(125,104,66,.8);
 }
 
+#slide4 {
+	background-image: url('../images/b2.jpg');
+	background-size: 30%;
+}
+
 #ys-slide1 {
-	background: rgba(242,237,182,.8);
+	background: rgba(214,214,214,.6);
 }
 
 #ys-slide2 {
 	background: rgba(232,205,116,.8);
+}
+
+#ys-slide2 img {
+	max-height: inherit;
 }
 
 #bees-slide1 {
@@ -133,14 +142,6 @@ body {
 }
 
 
-.bg-vid {
-  text-align: center;
-  display: block;
-  background: rgba(255,235,215,.5);
-  padding: 0 !important;
-	font-family: Helvetica, Arial, serif; !important
-}
-
 .bg-song {
 	display: none;
 }	
@@ -157,4 +158,8 @@ body {
 html {
 	border: 0;!important
 	border-bottom-width: 0; !important
+}
+
+#the_video {
+	size: 50%;
 }
