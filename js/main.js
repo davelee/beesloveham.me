@@ -1,4 +1,4 @@
-var numSlides = 3;
+var numSlides = 6;
 
 function goToByScroll(id){
 	$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');

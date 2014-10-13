@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 	display:block;
 	height: 100%;
 	vertical-align: middle;
+	max-width: 100%;
 }
 
 .vertalign {
@@ -101,19 +102,29 @@ h1, h2, h3, h4, h5, h6 {
 
 #slide4 {
 	background-image: url('../images/b3.jpg');
+	background-size: 20%;
+}
+
+#slide5 {
+	background: rgba(125,104,66,.8);
+}
+
+#slide6 {
+	background-image: url('../images/b2.jpg');
+	background-size: 40%;
+}
+
+#slide7 {
+	background-image: url('../images/b4.jpg');
 	background-size: 30%;
 }
 
 #ys-slide1 {
-	background: rgba(214,214,214,.6);
+	background: rgba(232,205,116,.8);
 }
 
 #ys-slide2 {
 	background: rgba(232,205,116,.8);
-}
-
-#bees-slide1 {
-	background: rgba(242,237,182,.8);
 }
 
 .love1 {
@@ -158,5 +169,11 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	font-family: Helvetica;
-	color: antiquewhite
+	color: antiquewhite;
+}
+
+#box {
+	text-align: center;
+	background: antiquewhite;
+	width: 30%;
 }
