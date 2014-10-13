@@ -15,25 +15,18 @@
     <![endif]-->
 
      <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/swag.css" rel="stylesheet">
 
   </head>
   <body>
-     <div class="navbar navbar-inverse navbar-fixed-top " role="navigation">
-      <div class="container">
-                  <div class="collapse navbar-collapse yeller">
-          <ul class="nav navbar-nav">
-		<li class="active"><a href="index.html">Our Story</a></li>
-		<li><a href="your_story.html">Your Story</a></li>
-            <li><a href="bees.html">Bees</a></li>
-            <li><a href="love.html">Love</a></li> 
-            <li><a href="ham.html">Ham</a></li>
-            <li class="coinbase-button"><a class="coinbase-button" data-code="64c58a569b3ed20266fcf7c40ce04ae5" href="https://coinbase.com/checkouts/64c58a569b3ed20266fcf7c40ce04ae5">Donate</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+    <div id="nav">
+    <ul>
+      <li>
+        <a href="http://beesloveham.me">home</a>
+      </li>
+    </ul>
     </div>
-    <div class="slide-box" id="slide1">
+    <div class="slide-box" id="slide1" onclick="goToByScroll('slide2')">
 			<div class="vertalign">
 				<h1>A bee in my ham<br>I reached for my camera<br>A website was born.<br></h1>
 				<h5>[Contributed by Jeffrey Schaub]</h5>	
@@ -56,9 +49,9 @@
     	</div>
 		</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

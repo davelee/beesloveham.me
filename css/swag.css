@@ -1,0 +1,160 @@
+#nav {
+	position: fixed;
+	background-color: black;
+	opacity: 0.8;
+	display: block;
+	width: 100%;
+	z-index: 1;	
+}
+
+#nav ul li a {
+	font-family: Helvetica;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#nav ul li a:hover {
+	color: gainsboro;
+}
+
+#nav ul li {
+	display: inline;
+}
+
+#nav ul {
+	display: block;
+}
+
+h1 {
+	font-size: 54px;
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+}
+
+h5 {
+	font-family: inherit;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.0;
+	color: rgb(250,250,210);
+	margin:0;
+}
+
+.slide-box {
+	text-align: center;
+	display:block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#slide1 {
+	/*background: rgba(242,237,182,.6);*/
+	background: rgba(214,214,214,.5);
+
+}
+
+#slide2 {
+	background-image: url('../images/b1.jpg');
+	background-size: 20%;
+}
+
+#slide3 {
+	background: rgba(125,104,66,.8);
+}
+
+#ys-slide1 {
+	background: rgba(242,237,182,.8);
+}
+
+#ys-slide2 {
+	background: rgba(232,205,116,.8);
+}
+
+#bees-slide1 {
+	background: rgba(242,237,182,.8);
+}
+
+.love1 {
+	background: rgba(242,237,182,.8);
+}
+
+.love2 {
+	background: rgba(232,205,116,.8);
+}
+
+
+.love3 {
+	background: rgba(125,104,66,.8);
+}
+
+.vertalign {
+	vertical-align: middle;
+	position: relative;
+	transform: translateY(-50%);
+	top:  50%;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	background: none;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+.full {
+  background: url(../images/blh_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.yeller a {
+	font-family: Helvetica, Arial;
+}
+
+.yeller a:hover {
+	color: #FFD700 !important;
+}
+
+.coinbase-button {
+  color: orange !important;
+}
+
+
+.bg-vid {
+  text-align: center;
+  display: block;
+  background: rgba(255,235,215,.5);
+  padding: 0 !important;
+	font-family: Helvetica, Arial, serif; !important
+}
+
+.bg-song {
+	display: none;
+}	
+
+.ys {
+	display: block;
+	width: 100%;
+	align: center;
+	text-align: center;
+	background: rgba(255,235,215,.5);
+	padding: 10px;
+}
+
+html {
+	border: 0;!important
+	border-bottom-width: 0; !important
+}

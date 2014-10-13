@@ -1,1 +1,3 @@
-console.log('This would be the main JS file.');
+function goToByScroll(id){
+	$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+}
